@@ -1,0 +1,4 @@
+# Never commit your real settings (may contain your healthchecks URL)
+fw-hardening.env
+*.log
+*.state
