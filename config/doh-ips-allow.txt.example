@@ -1,0 +1,9 @@
+# firewalla-dns-hardening: DoH IP allow-list
+# Installed as /home/pi/.firewalla/config/doh-ips-allow.txt
+#
+# One IPv4 address (or CIDR) per line. Addresses listed here are removed from
+# the DoH block, even after the nightly list update.
+# Apply changes with: /home/pi/.firewalla/config/fw-hardening/doh_ipblock.sh reload
+#
+# Example:
+# 203.0.113.10
